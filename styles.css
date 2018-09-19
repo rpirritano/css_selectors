@@ -1,3 +1,8 @@
+.page {
+  width: 600px;
+  margin: 0 auto; /* centers*/
+}
+
 .synopsis {
   color: #7E8184; /* Light gray*/
   font-style: italic;
