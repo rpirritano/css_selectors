@@ -3,14 +3,15 @@
   margin: 0 auto; /* centers*/
 }
 
-.synopsis {
-  color: #7E8184; /* Light gray*/
+.page > p:first-of-type {
+  color: #7E8184;
   font-style: italic;
 }
 
 /* “descendant selectors”. They let you target only those elements that are inside of another element */
-.synopsis em {
-  font-style: normal;
+.page > p:first-of-type {
+  color: #7E8184;
+  font-style: italic;
 }
 
 .button:link,                 /* Change this */
@@ -84,4 +85,8 @@ a:visited:hover {
 
 a:visited:active {
   color: red;
+}
+
+p:last-of-type {
+  margin-bottom: 50px;
 }
