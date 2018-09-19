@@ -8,6 +8,11 @@
   font-style: italic;
 }
 
+/* “descendant selectors”. They let you target only those elements that are inside of another element */
+.synopsis em {
+  font-style: normal;
+}
+
 .button {
   color: #FFF;
   background-color: #5995DA; /* Blue */
