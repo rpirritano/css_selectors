@@ -19,3 +19,8 @@
   width: 200px;
   margin: 20px auto;
 }
+/* When there’s two conflicting properties in a CSS file, the last one is always the one that gets applied */
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A;  /* Yellow */
+}
